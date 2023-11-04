@@ -31,16 +31,16 @@ function InfoPers(props: Cvprops) {
         </li>
       </ul>
       <Cmlg/>
-      <a href="https://www.linkedin.com" target="_blank">
+      <a href="https://www.linkedin.com/in/salah-eddine-hassik-09213321b/" target="_blank">
         <i className="fa fa-linkedin-square" id="linkedin"></i><br></br>
       </a>
-      <a href="https://www.github.com" target="_blank">
+      <a href="https://github.com/Salah-ZEddine" target="_blank">
         <i className="fa fa-github-square" id="github"></i><br></br>
       </a>
       <a href="https://www.twitter.com" target="_blank">
         <i className="fa fa-twitter-square" id="twitter"></i><br></br>
       </a>
-      <a href="mailto:salahexample@gmail.com" target="_blank">
+      <a href="mailto:salah.hassik2003@gmail.com" target="_blank">
         <i className="material-icons" id="mail">
           mail
         </i><br></br>
