@@ -1,6 +1,6 @@
 import { Route, Routes, NavLink } from 'react-router-dom';
 import MyForm from './pages/Form';
-import CV from './pages/CV';
+import CV from './pages/Cv';
 
 import './App.css';
 
