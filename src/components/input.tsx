@@ -1,4 +1,4 @@
-import { useState, ChangeEvent } from "react";
+import React, { useState, ChangeEvent } from "react";
 
 interface InputProps {
   Username: string;
@@ -65,7 +65,3 @@ function Input(props: InputProps) {
 }
 
 export default Input;
-
-
-
-
