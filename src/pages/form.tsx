@@ -1,9 +1,9 @@
 import PhotoUpload from '../components/photo';
-import Input from '../components/input';
+import Input from '../components/input'; 
 import Autres from '../components/autres';
 import Select from '../components/select';
 import RadioButtons from '../components/radiobuttons';
-import CheckboxGroup from '../components/checkboxes';
+import CheckboxGroup from '../components/checkboxes';  
 import Submit_function from '../components/submit';
 
 
