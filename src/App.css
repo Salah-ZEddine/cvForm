@@ -146,7 +146,7 @@ body {
 
 .body_pr{
 
-  background-image : url('../assets/background-copy.jpeg') ;
+  background-image : url(src/components/assets/background-copy.jpeg) ;
   background-size : cover;
   background-repeat : no-repeat;
   width : 2500px;
