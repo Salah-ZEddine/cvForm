@@ -1,10 +1,10 @@
-import PhotoUpload from '../components/photo';
-import Input from '../components/input';
-import Autres from '../components/autres';
-import Select from '../components/select';
-import RadioButtons from '../components/radiobuttons';
-import CheckboxGroup from '../components/checkboxes';
-import Submit_function from '../components/submit';
+import PhotoUpload from '../components/Photo';
+import Input from '../components/Input';
+import Autres from '../components/Autres';
+import Select from '../components/Select';
+import RadioButtons from '../components/Radiobuttons';
+import CheckboxGroup from '../components/Checkboxes';
+import Submit_function from '../components/Submit';
 
 
 
