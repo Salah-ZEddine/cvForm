@@ -7,10 +7,6 @@ import CheckboxGroup from '../components/checkboxes';
 import Submit_function from '../components/submit';
 
 
-import './App.css';
-
-
-
 
 function MyForm (){
     return(

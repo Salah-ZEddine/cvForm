@@ -1,6 +1,6 @@
 import React, { useState, ChangeEvent } from 'react';
 
-function Select(props: any) {
+function Select() {
   const [selectedOption, setSelectedOption] = useState('');
 
   const handleSelectChange = (event: ChangeEvent<HTMLSelectElement>) => {

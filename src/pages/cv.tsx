@@ -4,7 +4,7 @@ import Cmtc from "../components/Cmtc";
 import ObjProf from "../components/ObjProf";
 import Formation from "../components/Formation";
 import Interet from "../components/Interet";
-import "./App.css";
+
 
 function CV() {
   return (
