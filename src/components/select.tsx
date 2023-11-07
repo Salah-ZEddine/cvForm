@@ -1,16 +1,13 @@
-import  React, { useState, ChangeEvent } from 'react';
 
 function Select() {
-  const [selectedOption, setSelectedOption] = useState('');
 
-  const handleSelectChange = (event: ChangeEvent<HTMLSelectElement>) => {
-    setSelectedOption(event.target.value);
-  };
+
+  
 
   return (
     <div>
       <label className='label_st' >Donner votre diplome:</label>
-      <select className='Select_area' onChange={handleSelectChange}>
+      <select className='Select_area' >
         <option value="DEUG" className='Select_option'>DEUG</option>
         <option value="DEUST" className='Select_option'>DEUST</option>
         <option value="LICENCE" className='Select_option'>LICENCE</option>
