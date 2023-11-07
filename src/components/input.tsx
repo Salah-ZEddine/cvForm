@@ -1,7 +1,7 @@
 import React, { useState, ChangeEvent } from "react";
 
 interface InputProps {
-  username: string;
+  Username: string;
   type: string;
   ph: string;
   regex: RegExp;
@@ -10,6 +10,7 @@ interface InputProps {
 function Input(props: InputProps) {
   const [input, setInput] = useState('');
   const [isValidInput, setIsValidInput] = useState(true);
+  const [errorMessage, setErrorMessage] = useState('');
 
   const isValueValid = (input: string) => {
     return props.regex.test(input);
@@ -25,8 +26,8 @@ function Input(props: InputProps) {
 
   const handleBlur = () => {
     if (!isValidInput) {
-      switch (props.type) {
-        case 'text':
+      switch (props.type) { //choix d'utilisation de switch afin de faciliter l'affichage d'une message selon le type de l'input
+        case 'text': 
           alert(
             'Format de texte invalide, le nom doit être tout en majuscule et le prénom la première lettre en majuscule'
           );
@@ -41,21 +42,23 @@ function Input(props: InputProps) {
           alert('Format numéro de téléphone invalide');
           break;
         default:
-          // Handle other input types if needed
+          setErrorMessage('');
       }
+    } else {
+      setErrorMessage('');
     }
   };
 
   return (
     <div>
-      <label className='label_area'>{props.username}</label>
+      <label className='label_area'>{props.Username}</label>
       <input
         type={props.type}
         value={input}
         className='input_area'
         placeholder={props.ph}
         onChange={handleInputChange}
-        onBlur={handleBlur}
+        onBlur={handleBlur} //on'a utiliser ce eventHandler pour qu'on affiche le message qu'apres que l'utilisateur continue l'ecriture de son input
       />
     </div>
   );

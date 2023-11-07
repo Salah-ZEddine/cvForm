@@ -1,4 +1,4 @@
-import  { useState, ChangeEvent } from 'react';
+import  React, { useState, ChangeEvent } from 'react';
 
 function Select() {
   const [selectedOption, setSelectedOption] = useState('');
